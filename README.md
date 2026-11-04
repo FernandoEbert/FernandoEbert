@@ -14,7 +14,7 @@
 
 ## About me
 
-Backend developer specialized in **PHP**, with solid experience in HTML, CSS and JavaScript. I build web applications with **Laravel** (10/11/12), following a clean MVC architecture with clear separation of responsibilities — Services for business logic, FormRequests for validation, Policies for authorization and eager loading to keep queries lean. Comfortable across the **Livewire + Filament** stack for fast, maintainable admin panels, and integrating third-party APIs (payments, shipping, notifications).
+Backend developer specialized in **PHP**, with solid experience in HTML, CSS and JavaScript. I build web applications with **Laravel** (v10/v11/v12/v13), following a clean MVC architecture with clear separation of responsibilities — Services for business logic, FormRequests for validation, Policies for authorization and eager loading to keep queries lean. Comfortable across the **Livewire + Filament** stack for fast, maintainable admin panels, and integrating third-party APIs (payments, shipping, notifications).
 
 - 🔭 Currently working with **Laravel, Livewire v3 and Filament v3+**
 - 🌱 Always sharpening PHP 8.2+, performance and security practices
