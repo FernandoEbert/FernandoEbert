@@ -12,10 +12,16 @@
 
 </div>
 
+> [!IMPORTANT]
+> 🚀 **Just released: [Valet Linux+ 2.2.0](https://github.com/FernandoEbert/valet-linux-plus/releases/tag/2.2.0)** — Laravel 13 support and interactive prompts.
+> A fast, lightweight PHP development environment for Linux (Nginx + DnsMasq, `*.test` domains, per-project PHP isolation), now with an optional **[Desktop app](https://github.com/FernandoEbert/valet-linux-plus-desktop)**.
+> `composer global require fernandoebert/valet-linux-plus` · [Documentation](https://valet-linux-plus.ebertsystem.com.br/)
+
 ## About me
 
 Backend developer specialized in **PHP**, with solid experience in HTML, CSS and JavaScript. I build web applications with **Laravel** (10/11/12), following a clean MVC architecture with clear separation of responsibilities — Services for business logic, FormRequests for validation, Policies for authorization and eager loading to keep queries lean. Comfortable across the **Livewire + Filament** stack for fast, maintainable admin panels, and integrating third-party APIs (payments, shipping, notifications).
 
+- 🚀 Maintaining **[Valet Linux+](https://github.com/FernandoEbert/valet-linux-plus)** and its **[Desktop app](https://github.com/FernandoEbert/valet-linux-plus-desktop)** — open source, MIT
 - 🔭 Currently working with **Laravel, Livewire v3 and Filament v3+**
 - 🌱 Always sharpening PHP 8.2+, performance and security practices
 - 💬 Ask me about Laravel architecture, API integrations or Filament panels
@@ -27,6 +33,7 @@ Backend developer specialized in **PHP**, with solid experience in HTML, CSS and
 
 Desenvolvedor backend especialista em **PHP**, com ampla experiência em HTML, CSS e JavaScript. Construo aplicações web com **Laravel** (10/11/12), seguindo arquitetura MVC com separação clara de responsabilidades — Services para regra de negócio, FormRequests para validação, Policies para autorização e eager loading para manter as queries enxutas. Também atuo na stack **Livewire + Filament** para painéis administrativos rápidos e de fácil manutenção, além de integrações com APIs de terceiros (pagamentos, frete, notificações).
 
+- 🚀 Mantenedor do **[Valet Linux+](https://github.com/FernandoEbert/valet-linux-plus)** e do seu **[app Desktop](https://github.com/FernandoEbert/valet-linux-plus-desktop)** — open source, MIT
 - 🔭 Atualmente trabalhando com **Laravel, Livewire v3 e Filament v3+**
 - 🌱 Sempre aprimorando PHP 8.2+, performance e boas práticas de segurança
 - 💬 Me pergunte sobre arquitetura Laravel, integrações de API ou painéis Filament
@@ -45,11 +52,14 @@ Desenvolvedor backend especialista em **PHP**, com ampla experiência em HTML, C
   <img src="https://img.shields.io/badge/Filament-FDAE4B?style=for-the-badge&logo=laravel&logoColor=white" alt="Filament" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white" alt="Composer" />
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
 </p>
 
 **Frontend**
 
 <p>
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailwindCSS" />
   <img src="https://img.shields.io/badge/Alpine.js-8BC0D0?style=for-the-badge&logo=alpinedotjs&logoColor=black" alt="Alpine.js" />
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
@@ -67,19 +77,59 @@ Desenvolvedor backend especialista em **PHP**, com ampla experiência em HTML, C
   <img src="https://img.shields.io/badge/PHPStorm-000000?style=for-the-badge&logo=phpstorm&logoColor=white" alt="PHPStorm" />
 </p>
 
-## Featured Projects
+## 🌍 Open Source
 
-| Repository | Description |
-|---|---|
-| [**avisaapp**](https://github.com/FernandoEbert/avisaapp) ⭐2 | Component Avisa App, built in PHP. |
-| [**melhorenvio**](https://github.com/FernandoEbert/melhorenvio) | PHP integration for the Melhor Envio shipping API. |
-| [**xml-tools**](https://github.com/FernandoEbert/xml-tools) | PHP utilities for parsing and manipulating XML. |
+### Valet Linux+ ecosystem
 
-### Open Source Contributions
+<table>
+<tr>
+<td width="50%" valign="top">
 
-| Repository | Description |
-|---|---|
-| [**asaas-sdk**](https://github.com/FernandoEbert/asaas-sdk) ⭐2 | Fork/contribution — SDK for the Asaas payment gateway. |
+#### 🐘 [Valet Linux+](https://github.com/FernandoEbert/valet-linux-plus)
+
+<img src="https://img.shields.io/github/stars/FernandoEbert/valet-linux-plus?style=flat-square&color=2E9BF2&label=%E2%AD%90" alt="Stars" />
+<a href="https://github.com/FernandoEbert/valet-linux-plus/releases/latest"><img src="https://img.shields.io/github/v/release/FernandoEbert/valet-linux-plus?style=flat-square&color=2E9BF2" alt="Release" /></a>
+<a href="https://packagist.org/packages/fernandoebert/valet-linux-plus"><img src="https://img.shields.io/packagist/dt/fernandoebert/valet-linux-plus?style=flat-square&color=2E9BF2" alt="Downloads" /></a>
+
+Fast, lightweight PHP development environment for Linux. Nginx in the background + DnsMasq routing every `*.test` domain to your projects — no Vagrant, no `/etc/hosts`. Per-project PHP isolation, SSL, sharing, databases and services.
+
+Actively maintained fork of `genesisweb/valet-linux-plus`, now with **Laravel 13** support.
+
+```bash
+composer global require fernandoebert/valet-linux-plus
+```
+
+📖 [Documentation](https://valet-linux-plus.ebertsystem.com.br/) · 📦 [Packagist](https://packagist.org/packages/fernandoebert/valet-linux-plus)
+
+</td>
+<td width="50%" valign="top">
+
+#### 🖥️ [Valet Linux+ Desktop](https://github.com/FernandoEbert/valet-linux-plus-desktop)
+
+<img src="https://img.shields.io/github/stars/FernandoEbert/valet-linux-plus-desktop?style=flat-square&color=2E9BF2&label=%E2%AD%90" alt="Stars" />
+<a href="https://github.com/FernandoEbert/valet-linux-plus-desktop/releases/latest"><img src="https://img.shields.io/github/v/release/FernandoEbert/valet-linux-plus-desktop?style=flat-square&color=2E9BF2" alt="Release" /></a>
+<img src="https://img.shields.io/badge/Tauri_v2-Rust_+_Vue_3-24C8DB?style=flat-square" alt="Tauri" />
+
+Optional desktop app to manage your Valet environment from a window and the system tray: services, sites, parked paths, PHP versions and logs. The CLI stays the source of truth — every action runs as a `valet` command, with a sandboxed `pkexec` helper for privileged ones.
+
+Ships as **`.deb`**, **`.rpm`** and **AppImage**, with signed automatic updates.
+
+⬇️ [Download latest release](https://github.com/FernandoEbert/valet-linux-plus-desktop/releases/latest)
+
+</td>
+</tr>
+</table>
+
+### Other repositories
+
+| Repository | Stars | Description |
+|---|---|---|
+| [**linux-development-environment**](https://github.com/FernandoEbert/linux-development-environment) | <img src="https://img.shields.io/github/stars/FernandoEbert/linux-development-environment?style=flat-square&color=2E9BF2&label=%E2%AD%90" alt="Stars" /> | Starter kit for a Linux dev environment: installs PHP 8.1 → 8.5 side by side with Laravel extensions (Ubuntu 24.04+). |
+| [**avisaapp**](https://github.com/FernandoEbert/avisaapp) | <img src="https://img.shields.io/github/stars/FernandoEbert/avisaapp?style=flat-square&color=2E9BF2&label=%E2%AD%90" alt="Stars" /> | Component Avisa App, built in PHP. |
+| [**asaas-sdk**](https://github.com/FernandoEbert/asaas-sdk) | <img src="https://img.shields.io/github/stars/FernandoEbert/asaas-sdk?style=flat-square&color=2E9BF2&label=%E2%AD%90" alt="Stars" /> | Fork/contribution — SDK for the Asaas payment gateway. |
+| [**datalayer**](https://github.com/FernandoEbert/datalayer) | <img src="https://img.shields.io/github/stars/FernandoEbert/datalayer?style=flat-square&color=2E9BF2&label=%E2%AD%90" alt="Stars" /> | Fork — persistence abstraction layer over PDO with prepared statements. |
+| [**melhorenvio**](https://github.com/FernandoEbert/melhorenvio) | <img src="https://img.shields.io/github/stars/FernandoEbert/melhorenvio?style=flat-square&color=2E9BF2&label=%E2%AD%90" alt="Stars" /> | PHP integration for the Melhor Envio shipping API. |
+| [**xml-tools**](https://github.com/FernandoEbert/xml-tools) | <img src="https://img.shields.io/github/stars/FernandoEbert/xml-tools?style=flat-square&color=2E9BF2&label=%E2%AD%90" alt="Stars" /> | PHP utilities for parsing and manipulating XML. |
 
 ## GitHub Stats
 
